@@ -1,6 +1,6 @@
 import Header from "./Header.jsx"
 import Footer from "./Footer.jsx"
-import Food from "./Food.jsx"
+import Card from "./Card.jsx"
 
       {/*This is called a fragment. Because the return function can only return one thing,
         we make all of our compontents children of the fragment */}
@@ -8,10 +8,10 @@ import Food from "./Food.jsx"
 function App() {
     return(
       <>
-        <Header/>
-        <Food/>
-        <Food/>
-        <Footer/>
+        <Card/>
+        <Card/>
+        <Card/>
+        <Card/>
       </>
 
     );
